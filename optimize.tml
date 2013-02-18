@@ -1,0 +1,8 @@
+*grammar.compile.optimize.yaml.clean == *yaml
+
+=== Question Mark Expansion
+--- grammar
+a: /(:foo)/
+--- yaml
+a:
+  .rgx: /(?:foo)/
