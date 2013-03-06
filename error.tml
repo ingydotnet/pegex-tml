@@ -1,3 +1,5 @@
+%TestML 0.1.0
+
 parse_input(*grammar, *input).Catch ~~ *error
 
 === Error fails at furthest match
